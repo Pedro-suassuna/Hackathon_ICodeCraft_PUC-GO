@@ -7,6 +7,9 @@ let i = 0
 box.addEventListener("mouseover", hoverEffectIn)
 box.addEventListener("mouseout", hoverEffectOut)
 
+bips1.volume = 0.2
+bips3.volume = 0.2
+
 function hoverEffectIn() {
   getLoop = setTimeout(function () {
     i++
